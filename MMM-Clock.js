@@ -5,15 +5,15 @@
  * 
  */
 
-Module.register("MMM-Clockinese",{
+Module.register("MMM-RomanAnalogClock",{
 		
 	defaults: {
-			height:"210px",
-			width:"210px"
+			height:"600px",
+			width:"600px"
 	},
 	
 	getStyles: function() {
-        return ["MMM-Clockinese.css"];
+        return ["MMM-Clock.css"];
     },
 
     
@@ -27,17 +27,16 @@ Module.register("MMM-Clockinese",{
 		iframe.height = this.config.height;
 		type="text/javascript";
         
-        iframe.src="http://free.timeanddate.com/clock/i692cr7d/n179/szw210/szh210/hoc000/hbw0/hfc000/cf100/hnc000/fan2/fac0f0/fnu3/fdi84/mqcfff/mqs3/mql10/mqw1/mqd62/mhcfff/mhs3/mhl9/mhw1/mhd62/mmv0/hhc0f0/hhs3/hhl50/hhb0/hhw8/hhr5/hmc0f0/hms3/hml70/hmb0/hmw8/hmr5/hss3/hsl85/hsb0/hsw3/hsr2";
-		
+        iframe.src="http://free.timeanddate.com/clock/i6au1gvj/n105/szw600/szh600/hocfff/hbw6/cf100/hgr0/hwcaaa/hccfff/hcw1/hcd90/fiv0/fan2/fas30/fnu2/fdi60/mqc444/mqs4/mql13/mqw4/mqd90/mhc000/mhs4/mhl13/mhw2/mhd90/mmc000/mms4/mml5/mmw1/mmd82/hwm2/hhs2/hhb18/hms2/hml80/hmb18/hmr7/hscf09/hss1/hsl90/hsr5";
 		return iframe;
 	},
 	
 	 /////  Add this function to the modules you want to control with voice //////
 
     notificationReceived: function(notification, payload) {
-        if (notification === 'HIDE_CLOCKINESE') {
+        if (notification === 'HIDE_CLOCK') {
             this.hide(1000);
-        }  else if (notification === 'SHOW_CLOCKINESE') {
+        }  else if (notification === 'SHOW_CLOCK') {
             this.show(1000);
         }
             

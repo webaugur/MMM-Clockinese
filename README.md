@@ -1,22 +1,16 @@
-## MMM-Clockinese
+## MMM-RomanAnalogClock
 
-Analog clock with Chinese numbers
-
-## Examples
-
-![](images/1.png)
+Analog clock with Roman numbers
 
 ## Installation
 
-* `git clone https://github.com/mykle1/MMM-Clockinese` into the `~/MagicMirror/modules` directory.
+* `git clone https://github.com/webaugur/MMM-RomanAnalogClock` into the `~/MagicMirror/modules` directory.
 
 ## Config.js entry and options
 
     {
            disabled: false,
-           module: 'MMM-Clockinese',
+           module: 'MMM-RomanAnalogClock',
            position: 'top_center',
     },
 
-Felt like making a clock module that was a little different.
-I really like the Chinese numbers so that's what I went with.

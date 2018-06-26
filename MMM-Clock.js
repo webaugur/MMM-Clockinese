@@ -26,8 +26,7 @@ Module.register("MMM-RomanAnalogClock",{
 		iframe.width = this.config.width;
 		iframe.height = this.config.height;
 		type="text/javascript";
-        
-        iframe.src="http://free.timeanddate.com/clock/i6au1gvj/n105/szw600/szh600/hocfff/hbw6/cf100/hgr0/hwcaaa/hccfff/hcw1/hcd90/fiv0/fan2/fas30/fnu2/fdi60/mqc444/mqs4/mql13/mqw4/mqd90/mhc000/mhs4/mhl13/mhw2/mhd90/mmc000/mms4/mml5/mmw1/mmd82/hwm2/hhs2/hhb18/hms2/hml80/hmb18/hmr7/hscf09/hss1/hsl90/hsr5";
+        iframe.src="http://free.timeanddate.com/clock/i6au1gvj/n105/szw600/szh600/hocfff/hbw1/cf100/hgr0/hccfff/hcw1/hcd68/fiv0/fan2/fas30/fnu2/fdi86/mqc444/mqs4/mql13/mqw4/mqd70/mhc000/mhs4/mhl13/mhw2/mhd70/mmc000/mms4/mml5/mmw1/mmd66/hwm2/hhs2/hhl60/hhb18/hhw11/hhr7/hmc666/hms2/hml65/hmb18/hmw6/hmr5/hscf09/hss1/hsl65/hsb18/hsw1/hsr3" 
 		return iframe;
 	},
 	
